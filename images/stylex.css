@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+}
+body
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 25px;
+	
+	margin-right:25px;
+	 padding: 10px;
+    background: #f1f1f1;
+
+}
+.header  {
+    padding: 5px;
+    text-align: center;
+	width:100%;
+	overflow:hidden;
+}
+ .header h1,h2{color:red;}
+
+
+
+ #log
+{
+float:right;
+color:black;}
+
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+	padding:17px;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+ 
+
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: gray;
+    color: white;
+}
+.topnav .active
+{
+	background-color:grey;
+	color:white;
+}
+.footer{
+width:100%;
+text-align:center;
+border-bottom:0px;
+}
+#cat1
+{
+	
+    text-align:center;
+	margin: 0px;
+	width:120%;
+	overflow:hidden;
+	display: inline-block;
+	padding-top:10px;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#cart11{
+	 
+overflow:hidden;
+display: inline-block;
+	padding-top:10px;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+
+}
+#list
+{
+
+
+	
+	padding: 10px;
+	background-color: #FFFFFF;
+	margin: 30px;
+	border: 1px solid #EAEAEA;  
+	color: #3D3D3D;
+	float:right;
+	overflow:hidden;
+	
+
+}
+
+ #list1{
+	overflow:hidden;
+	padding: 10px;
+	background-color: #FFFFFF;
+	margin: 30px;
+	border: 1px solid #EAEAEA;  
+	color: #3D3D3D;
+	height:300px;
+	overflow:hidden;
+	
+ }
+ 
+ 
+button{
+	background-color: orange;
+	min-width: 150px;
+	
+	
+	border: none;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #FFF;
+	min-height: 15px;
+	font: 12px/15px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+	border-radius: 3px;
+}
+button:hover{
+	background-color: #44C7ED;
+}
+
+
+.cart-total-text a{
+	float:right;
+}
+
+.cart-view-table-front{
+	font-size: 0.7em;
+	position: fixed;
+	right: 10px;
+	max-width: 350px;
+	font-family: Arial;
+}
+.cart-view-table-front h3{
+	text-align: center;
+	padding: 0;
+	margin: 0px 0px 6px 0px;
+}
+.cart-view-table-front, .cart-view-table-back {
+	max-width: 80%;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.12);
+	border: 1px solid #E4E4E4;
+
+}
+.cart-view-table-front table th, .cart-view-table-back table th{
+	text-align: left;
+}
+.cart-view-table-front table thead, .cart-view-table-back table thead{
+	background:transparent;
+}
+.cart-view-table-front table tbody tr.even, .cart-view-table-back table tbody tr.even{
+	background-color: #F7F7F7;
+}
+.cart-view-table-front table tbody tr.odd, .cart-view-table-back table tbody tr.odd{
+	background-color: #EDEDED;
+}
+.cart-view-table-front button, .cart-view-table-front .button,{
+	margin: 10px 1px;
+	float: right;
+}
+ .cart-view-table-back button, .cart-view-table-back .button
+ {
+	 float:left;
+ }
+ button .button,a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+	background-color: #39b3d7;
+	min-width: 100px;
+	
+	border: none;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #FFF;
+	min-height: 15px;
+	font: 12px/15px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+	border-radius: 3px;
+	
+}
+a.button:hover{
+	background-color: #44C7ED;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+	 .topnav a,.header {
+        float: none;
+        width: 100%;
+    }
+	.cart-view-table-back table thead,table th,table body,button,.button,#hoi{ position:relative;width:100%;overflow:hidden;}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+
+}
+
+
+#cont{
+	width:100%;
+	height:250px;
+	
+}
+div#div1{
+width:40%;
+overflow:hidden;
+height:300px;	
+float: left;
+}
+
+div#div2{
+margin-left:40%;
+margin-right:20%;	
+overflow:hidden;
+height:300px;
+width:20%;
+
+}
+div#div3{
+	
+	
+overflow:hidden;
+height:300px;
+float:right;
+width:20%;
+}
+
+#hotelname{
+	color:blue;
+}
+#p2{
+	color:red;
+}
+
+#p3{
+	color:red;
+	text-align:center;
+}
+#p4{
+	color:green;
+ font-size:20px;
+text-align:center;
+
+}
+
+
+<style>
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  /* 
+  grid-template-areas: "one one" "two four" "three four";
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 200px;
+  */
+  grid: "one one" 200px 
+        "two four" 
+        "three four" 
+        / 1fr 2fr;
+}
+
+.item1 {
+  grid-area: one;
+}
+
+.item2 {
+  grid-area: two;
+}
+
+.item3 {
+  grid-area: three;
+}
+
+.item4 {
+  grid-area: four;
+}
+</style>
