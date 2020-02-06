@@ -1,0 +1,424 @@
+
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../images/loader-orange.gif) center no-repeat #fff;
+}
+#footer{
+padding:10px;
+	background-color:black;
+	text-align:center;
+	color:white;
+}
+
+p{
+	color:#808285;
+}
+
+.page-heading h2{
+	color:#231f20;
+}
+
+.page-heading.white-heading h2{
+	color:white;
+}
+
+
+.page-heading .heading-line{
+	border-color:#faa61a;
+	border-width:medium;
+}
+
+.innerpage-heading h1{
+	color:#000000;
+}
+
+.trip-heading span{
+	color:#faa61a;
+}
+
+
+.owl-carousel.owl-custom-arrow .owl-controls .owl-buttons .owl-prev,
+.owl-carousel.owl-custom-arrow .owl-controls .owl-buttons .owl-next{
+	border-radius:0px;
+	background:#faa61a;
+}
+
+.map iframe{
+	border:0px;
+}
+
+.border-shape-top::before,
+.border-shape-top::after{
+	background:#333;
+}
+
+.border-shape-bot::before,
+.border-shape-bot::after{
+	background:#faa61a;	
+}
+
+@media(max-width:991px){
+	
+	.back-size{
+		background-size:cover !important;
+	}
+}
+
+
+
+
+/* -----------------------------------------------------
+		Navbar
+   ----------------------------------------------------- */
+
+.navbar-white{
+	background:white;
+}
+
+/************* MAIN NAVBAR *************/
+
+.main-navbar{
+	border:0px;
+	border-radius:0px;
+}
+  
+.main-navbar .navbar-header .navbar-brand {
+  color:#000;
+  font-weight:900;
+}
+
+.main-navbar .navbar-header .navbar-brand span{
+  color:#faa61a;
+}
+
+.main-navbar .navbar-header .header-search .fa{
+	color:#faa61a;
+}
+
+.main-navbar .navbar-header .navbar-toggle {
+	background:none;
+	border:0;
+}
+
+.main-navbar .navbar-header .navbar-toggle span{
+	background:#000;
+}
+
+.main-navbar .navbar-collapse{
+	border-color:#f2f2f2;
+}
+
+.main-navbar .nav > li > a{
+	color:#58595b;
+}
+
+.main-navbar .navbar-nav > li::before{
+	background:#faa61a;
+}
+
+.main-navbar .navbar-nav > li::before{
+	background:#faa61a;
+}
+
+.main-navbar .nav > li > a:hover,
+.main-navbar .nav > li > a:focus,
+.main-navbar .nav > li > a:focus:hover,
+.main-navbar .nav > li.active > a,
+.main-navbar .nav > li.active > a:focus,
+.main-navbar .nav > li.active > a:hover,
+.main-navbar .nav > li.active > a:focus:hover {
+	color: #faa61a;
+	background-color: transparent;
+}
+
+.main-navbar .navbar-search-link > li:last-child a{
+	border:1px solid #faa61a;
+	color:#faa61a;
+	border-radius:100%;
+}
+
+.main-navbar .navbar-search-link > li:last-child a:hover{
+l	background:#faa61a;
+	color:white;
+}
+
+.main-navbar .navbar-nav > li.dropdown.active.open > a, 
+.main-navbar .navbar-nav > li.dropdown.active > a:hover,
+.main-navbar .navbar-nav > li.dropdown.open > a, 
+.main-navbar .navbar-nav > li.dropdown.open > ul.dropdown-menu > a:hover{
+	color:#faa61a;
+  	background:none;
+}
+
+.main-navbar .navbar-nav li .dropdown-menu{
+	border-radius:0px;
+	background:#f6f6f6;
+	border-color:#f2f2f2;
+	border-bottom:0px;
+}
+
+.main-navbar .navbar-nav li .dropdown-menu li a:hover,
+.main-navbar .navbar-nav li .dropdown-menu li a:focus,
+.main-navbar .navbar-nav li .dropdown-menu li.active a,
+.main-navbar .navbar-nav li .dropdown-menu li.active a:hover {
+	background:#faa61a;
+	color:black;
+}
+
+.main-navbar .navbar-nav > .dropdown:hover > a{
+	color:#faa61a;
+}
+
+.main-navbar .dropdown-submenu > a:after{
+	border-color:transparent;
+	border-style:solid;
+	border-width:5px 0 5px 5px;
+	border-left-color:#cccccc;
+}
+
+.main-navbar .dropdown-submenu:hover > a:after,
+.main-navbar .dropdown-submenu.active > a:after{
+	border-left-color:#000;
+}
+
+.main-navbar li.dropdown-submenu:hover .dropdown-toggle{
+	background:#faa61a;
+}
+
+.main-navbar .navbar-nav li .dropdown-menu.dropdown-sbm li a{
+	background:transparent;
+}
+
+.main-navbar .navbar-nav li .dropdown-menu.dropdown-sbm li a:hover,
+.main-navbar .navbar-nav li .dropdown-menu.dropdown-sbm li.active a{
+	background:#faa61a;
+}
+
+.main-navbar .mega-dropdown-menu{
+	background:linear-gradient(rgba(242, 242, 242,0.85),rgba(242, 242, 242,0.85)),url('../images/megamenu.jpg') 65% 50% !important;
+}
+
+.main-navbar .mega-dropdown-menu .dropdown-header{
+	color:#333;
+}
+
+.main-navbar .navbar-nav li .mega-dropdown-menu ul li a{
+	color:#333;
+	border-bottom:0px;
+}
+
+.main-navbar .mega-dropdown-menu .dropdown-header span{
+	color:#faa61a;
+}
+
+@media(min-width:768px){
+
+	.main-navbar.affix {
+		box-shadow:0px 2px 5px rgba(0,0,0,0.2);
+	}
+	
+	.main-navbar .navbar-nav li .dropdown-menu li a{
+		border-bottom:1px solid #ebebeb;
+	}
+}
+
+@media(max-width:767px){
+
+	.main-navbar{
+		background:white;
+	}
+	
+	.main-navbar.affix{
+		box-shadow:0px 2px 5px rgba(0,0,0,0.2);
+	}
+}
+
+
+
+
+@media(max-width:767px){
+	
+	.main-navbar.navbar-colored{
+		background:#faa61a;
+	}
+}
+
+.main-block:hover{
+	transform:translateY(-10px);
+}
+
+.main-block:hover .main-img img{
+	transform:scale(1.15);
+} 
+
+.main-info{
+	background:white;
+}
+
+.main-info .main-title a{
+	color:#000;
+}
+
+
+
+.arrow .fa{
+	background:#8e8f91;
+	color:white;
+	border-radius:100%;
+}
+
+.arrow .fa:hover{
+	background:#faa61a;
+	color:white;
+}
+
+
+
+
+
+.hotel-block:hover .hotel-info{
+	box-shadow:0px 4px 8px rgba(0,0,0,0.15);
+}
+
+.main-mask{
+	background:rgba(0,0,0,0.8);
+}
+
+.hotel-info{
+	box-shadow:0px 4px 6px rgba(0,0,0,0.07);
+	border:1px solid #e6e7e8;
+}
+
+
+
+/* -----------------------------------------------------
+		Tour Block
+   ----------------------------------------------------- */
+
+#main-homepage #tour-offers{
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/tour-offers.jpg) 50% 0%;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.tour-block:hover{
+	box-shadow:0px 0px 16px rgba(0,0,0,0.15);
+}
+
+.tour-block .tour-info{
+	border:1px solid #e6e7e8;
+}
+
+
+
+
+
+/* -----------------------------------------------------
+		Page Cover
+   ----------------------------------------------------- */
+   
+.page-cover{
+	color:black;
+}
+
+.page-cover::before{
+	background:linear-gradient( to right, rgba(0, 0, 0,1) 0%,rgba(0, 0, 0,1) 26%, rgba(0, 0, 0,0.6) 46%, rgba(0, 0, 0,0) 64%,rgba(0, 0, 0,0) 100%);	
+}
+
+.page-cover .breadcrumb{
+	background:none;
+}
+
+.page-cover .breadcrumb li a{
+	color:#faa61a;
+}
+
+.page-cover .breadcrumb > li + li::before,
+.page-cover .breadcrumb li.active{
+	color:white;
+}
+
+@media(max-width:768px){
+	
+	.page-cover::before{
+		background:linear-gradient( to right, rgba(0, 0, 0,1) 0%,rgba(0, 0, 0,1) 26%, rgba(0, 0, 0,0.6) 66%, rgba(0, 0, 0,0) 84%,rgba(0, 0, 0,0) 100%);	
+	}
+}
+
+
+
+#cover-holiday{
+	background:url('beach.jpg') ;
+	height:350px;
+	background-size:cover;
+	border:collapse;
+	text-align:center;
+}
+
+
+
+
+.cover-navbar-wrapper{
+	background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/cover-navbar-wrapper.jpg') 50% 60%;
+	background-size:cover
+}
+
+/*********** COVER BACKGROUND ************/
+
+.page-cover.back-img{
+	background:url('beach.jpg') 50% 60%;
+	background-size:cover;
+}
+
+
+
+
+
+
+.page-cover.dashboard{
+	background:#1f1e19;
+}
+
+
+
+#holiday-trips .owl-holidays .tour-info{
+	background:#f8f8f8;
+}
+
+#popular-destinations{
+	background:#f2f2f2;
+}
+
+.big-heading h2{
+	color:#333;
+	text-shadow:8px 0px 10px rgba(0,0,0,0.5);
+	animation: color 7s infinite;
+	animation-timing-function: ease-in-out;
+}
+
+#popular-destinations li:before{
+	color:#faa61a;	
+}
+
+#popular-destinations li a{
+	color:#404040;
+}
+
+#popular-destinations li a:hover{
+	color:#faa61a;
+}
+
+@keyframes color {
+	0% {text-shadow:-8px 0px 10px rgba(0,0,0,0.5);}
+	25% {color:#faa61a; text-shadow:8px 0px 10px rgba(0,0,0,0.5);}
+	50%	{text-shadow:-8px 0px 10px rgba(0,0,0,0.5);}
+	75% {color:#faa61a; text-shadow:8px 0px 10px rgba(0,0,0,0.5);}
+	100% { text-shadow:-8px 0px 10px rgba(0,0,0,0.5);}
+}
+
